@@ -1,0 +1,97 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(80, 78, 78);
+}
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background: rgb(85, 85, 99);
+
+}
+#humberger-icon{
+    visibility: hidden;
+    
+}
+.left-menu-content{
+    visibility: visible;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    right:0;
+}
+@media screen and (max-width:630px) {
+    #humberger-icon{
+        visibility: visible;
+    }
+    .left-menu-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .visibility-menu{
+        height: 72px;
+    }
+    .visibilty-class{
+        opacity: 0%;
+    }
+
+    
+}
+#header-title{
+    background: linear-gradient(rgb(107, 137, 165),rgb(95, 92, 92));
+
+}
+#product-title{
+    padding: 50px;
+}
+.container{
+    height: 100px;
+    margin-bottom: 50px;
+}
+#introduction{
+    margin-top: 60px;
+    color: rgb(74, 74, 80);
+    padding: 30px;
+    background-color: rgb(207, 208, 218);
+}
+button{
+    background-color: rgb(74, 74, 80);
+}
+#points{
+    margin-top: 20px;
+}
+#registration-form{
+    background: linear-gradient(rgb(107, 137, 165),rgb(95, 92, 92));
+    color: rgb(15, 15, 15);
+    padding: 20px;
+}
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+#footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(207, 208, 218);
+}
+#right-menu-content{
+    position: absolute;
+    cursor: pointer;
+    right: 10%;
+    top: 5%;
+}
+#button1 a{
+    color: white;
+    text-decoration: none;
+}
+#button2 a{
+    color: white;
+    text-decoration: none;
+}
